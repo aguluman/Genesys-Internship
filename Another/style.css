@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body
+    {
+        height: 100%;
+        background-color: burlywood;
+    }
+    
+    h1{
+        font-size: 3rem;
+        font-weight: 50;
+        margin: 1rem 0 3rem;
+        text-align: center;
+        color: black;
+        font-family: 'Gluten', cursive;
+    }
+    
+    .styling{
+        font-weight: 800;
+        color: lemonchiffon;
+    }
+    
+    .input_div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .input_div .input{
+        padding: 0.5rem 1rem;
+        height: 50px;
+        outline: none;
+        border: none;
+        background-color: cornsilk;
+        width: 450px;
+        font-size: 1.15rem;
+        margin: 0.3rem;
+        border-radius: 25px;
+    }
+    
+    .addButton
+    {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        color:gainsboro;
+        margin: 0.25px;
+        background-color :saddlebrown;
+        cursor : pointer;
+    }
+    
+    .addButton:hover{
+        opacity:0.7;
+    }
+    
+    .container
+    {
+        display: flex;
+        flex-direction :column;
+        justify-content: center;
+        align-items :center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .item{
+        padding: 0.5rem;
+        margin-bottom: 0.4rem;
+        border-bottom: 4px solid bisque;
+    }
+    
+    .item_input{
+        background: none;
+        outline:none;
+        color: black;
+        border: none;
+        width: 350px;
+        font-size: 1.5rem;  
+        overflow-y: auto;
+        overflow-wrap: break-word;
+        
+    }
+    button{
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        margin: 3px;
+        cursor:pointer;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+    .editButton
+    {
+        font-size: 1.2rem;
+        font-family: 'Nunito', sans-serif;
+        background: white;
+        outline: blanchedalmond;
+        color: black;
+        border: none;
+    }
+    
+    .removeButton
+    {
+        font-size: 1.2rem;
+        font-family: 'Nunito', sans-serif;
+        background: black;
+        outline: blanchedalmond;
+        color: red;
+        border: none;
+    }
