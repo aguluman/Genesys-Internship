@@ -4,7 +4,8 @@ function Animal (name, limbs) {
 }
 
 Animal.prototype.move = function() {
-    console.log("currently moving");
+    //console.log("currently moving");
+    console.log("Is alive and healthy")
 };
 
 function Dog(name) {
@@ -22,13 +23,13 @@ function Bird (name) {
 Bird.prototype = Object.create(Animal.prototype);
 
 Bird.prototype.move = function() {
-    console.log("currently flying");
+    console.log("is currently flying" + "\nand him dey catch cruise forget.");
 };
 
 const puppy = new Dog("Puppy");
-console.log("puppy");
+console.log("Puppy");
 puppy.move();
 
 const chick = new Bird("Falcon");
-console.log("chick");
+console.log("Falcon");
 chick.move();
