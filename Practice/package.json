@@ -7,7 +7,7 @@
     "start": "node playplay",
     "dev" : "nodemon playplay"
   },
-  "author": "",
+  "author": "Chukwuma A.",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
