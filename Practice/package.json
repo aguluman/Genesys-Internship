@@ -4,7 +4,8 @@
   "description": "making a server by traversymedia",
   "main": "playplay.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node playplay",
+    "dev" : "nodemon playplay"
   },
   "author": "",
   "license": "ISC",
