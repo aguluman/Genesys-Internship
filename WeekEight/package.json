@@ -1,0 +1,19 @@
+{
+  "name": "weekeight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testone.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

@@ -5,7 +5,7 @@
   "main": "playplay.js",
   "scripts": {
     "start": "node playplay",
-    "dev" : "nodemon playplay"
+    "dev": "nodemon playplay"
   },
   "author": "Chukwuma A.",
   "license": "ISC",
