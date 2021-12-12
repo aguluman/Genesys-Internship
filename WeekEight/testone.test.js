@@ -1,5 +1,21 @@
 const testone = require('./testone');
 
+
+const nameCheck = () => console.log('Checking Name....');
+
+describe('Checking Names', () => {
+  beforeEach(() => nameCheck());
+
+  test('User is Jeff', () => {
+    const user = 'Jeff';
+    expect(user).toBe('Jeff');
+  });
+
+  test('User is Karen', () => {
+    const user = 'Karen';
+    expect(user).toBe('Karen');
+  });
+});
     //.not.toBe
     test('Adds 2 + 2 to equal 4', () => {
         expect(testone.add(2, 2)).toBe(4);
@@ -50,19 +66,16 @@ const testone = require('./testone');
 
     //working with async data
 
-    // promise
-    // test('user fetched name should be Leanne Graham', () => {
-    //     expect.assertions(1);
-    //      return testone.fetchUser()
-    //     .then(data => {
+    // test('User fetched name should be Leanne Graham', () => {
+    //       expect.assertions(1);
+    //       return functions.fetchUser().then(data => {
     //         expect(data.name).toEqual('Leanne Graham');
+    //       });
     //     });
-    // });
 
     //async await
     test('user fetched name should be Leanne Graham', async () => {
-        expect.assertions(1);
+        expect.assertions(2);
          const data = await testone.fetchUser();
-            expect(data.name).toEqual('Leanne Graham');
-    
+            expect(data.name).toStirctEqual('Leanne Graham');
     });

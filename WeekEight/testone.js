@@ -6,7 +6,7 @@ const testone ={
     checkValue: x => x,
     createUser: () => {
         const user = {firstName: 'Chukwuma'}
-        user['lastName'] = 'Akunyili';
+        user['lastName'] = 'A.';
         return user;
     },
     fetchUser: () => axios
