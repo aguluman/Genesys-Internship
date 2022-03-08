@@ -1,0 +1,33 @@
+<h3>Send Money</h3>
+<div class="row">
+    <form action="/stories" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="Description" name="Description">
+                <label for="Description">Transaction Description</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <select id="transaction" name="transaction">
+                    <option value="Debit" selected>Debit</option>
+                    <option value="Credit">Credit</option>
+                </select>
+                <label for="transaction">TXN</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <h5>Tell me how much you would like to send:</h5>
+                <textarea id="Amount" name="Amount"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Send" class="btn">
+            <a href="/dashboard" class="btn orange">Don't Send</a>
+        </div>
+    </form>
+</div>
